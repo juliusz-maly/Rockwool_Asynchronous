@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<Authors>Juliusz Mały</Authors>
+    <Company>Rockwool</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="_RunRequest.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="_RunRequest.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+
+</Project>
